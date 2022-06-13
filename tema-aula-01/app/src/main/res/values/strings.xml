@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TemaAula01</string>
+    <string name="recipient">Recipient</string>
+    <string name="recipient_name">Amelie N Mason</string>
+    <string name="address">Address</string>
+    <string name="address_street">47 Greyfriars Road, CAPHEATON</string>
+    <string name="address_country">United Kingdom</string>
+    <string name="address_other">NE19 5PJ</string>
+    <string name="message">Message</string>
+    <string name="message_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at eros ex. Curabitur cursus risus arcu, eget imperdiet velit vehicula nec. Sed ut facilisis mi. Fusce consequat leo eu convallis facilisis. Pellentesque eget metus id odio condimentum mollis id id tellus. Aliquam quis porttitor turpis. Nulla a nunc vel orci malesuada euismod nec ac urna.</string>
+    <string name="save_draft">SAVE DRAFT</string>
+    <string name="review_design">REVIEW DESIGN</string>
+</resources>
