@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="240dp"
+    android:background="@color/white"
+    android:padding="11dp"
+    android:layout_marginBottom="22dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_machine_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Inissia"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/iv_machine_image" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_machine_image"
+        android:layout_width="78dp"
+        android:layout_height="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_machine_title"
+        app:layout_constraintBottom_toTopOf="@+id/tv_machine_price"
+        app:srcCompat="@drawable/machine_base" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_machine_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="R$499"
+        android:textColor="@color/green"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_machine_image" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_favorite"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_machine_image"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:srcCompat="@drawable/ic_favorite_outline" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
