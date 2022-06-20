@@ -6,6 +6,6 @@ class AccessoryResponse (
     @Json(name="id") val id: Int,
     @Json(name="nome") val name: String,
     @Json(name="preco") val price: Double,
-    @Json(name="descricao") val description: String,
+    @Json(name="descricao") val description: String?,
     @Json(name="imagem") val imageUrl: String
 ): ProductType(type = 1)

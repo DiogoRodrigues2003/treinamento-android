@@ -8,7 +8,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 object RetrofitConfig {
 
     val service: NespressoApi = Retrofit.Builder()
-        .baseUrl("http://192.168.0.104:3000")
+        .baseUrl("http://192.168.0.22:3000")
         .addConverterFactory(
             MoshiConverterFactory.create(
                 Moshi.Builder()
