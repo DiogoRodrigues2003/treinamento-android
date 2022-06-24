@@ -1,8 +1,11 @@
 package br.com.cwi.nespresso_app.presentation.base
 
 import android.content.Intent
+import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import br.com.cwi.nespresso_app.R
+import br.com.cwi.nespresso_app.databinding.ActivityCoffeeBinding
+import br.com.cwi.nespresso_app.databinding.ViewErrorBinding
 import br.com.cwi.nespresso_app.presentation.feature.bag.BagActivity
 import br.com.cwi.nespresso_app.presentation.feature.favorites.FavoritesActivity
 import br.com.cwi.nespresso_app.presentation.feature.products.ProductsActivity
@@ -44,11 +47,6 @@ abstract class BaseBottomNavigation : AppCompatActivity() {
             }
             return@setOnItemSelectedListener true
         }
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
     }
 
     private fun selectCurrentTab() {
