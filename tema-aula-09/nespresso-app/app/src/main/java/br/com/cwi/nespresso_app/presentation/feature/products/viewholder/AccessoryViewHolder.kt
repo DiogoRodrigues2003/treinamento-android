@@ -3,15 +3,12 @@ package br.com.cwi.nespresso_app.presentation.feature.products.viewholder
 import android.content.Context
 import android.content.Intent
 import android.view.View
-import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import br.com.cwi.nespresso_app.databinding.ItemAccessoryBinding
 import br.com.cwi.nespresso_app.domain.entity.Accessory
-import br.com.cwi.nespresso_app.domain.entity.Coffee
 import br.com.cwi.nespresso_app.presentation.extension.toMoneyFormat
 import br.com.cwi.nespresso_app.presentation.feature.products.accessoryDetails.AccessoryDetailsActivity
-import br.com.cwi.nespresso_app.presentation.feature.products.machineDetails.MachineDetailsActivity
 import com.bumptech.glide.Glide
 
 class AccessoryViewHolder(item: View) : RecyclerView.ViewHolder(item) {
